@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "IbmPlexSans";
+
+  src: url(../Fonts/IBMPlexSans-ExtraLight.ttf) format(truetype);
+
+  font-weight: 200;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IbmPlexSans";
+
+  src: url(../Fonts/IBMPlexSans-Regular.ttf) format(truetype);
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IbmPlexSans";
+
+  src: url(../fonts/IBMPlexSans-Regular.ttf) format(truetype);
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #474e60;
+  color: silver;
+}
+header {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../auto.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: black;
+  }
+  .navbar {
+    background-color: rgba(224, 30, 30, 0.8);
+    z-index: 5;
+    flex-direction: column;
+
+    background-size: cover;
+
+    .brand {
+      font-size: 2rem;
+      color: black;
+    }
+    .navbar-motto {
+      text-align: center;
+      width: 100%;
+      font-size: 3rem;
+      color: darkred;
+    }
+    .nav-link:hover,
+    .nav-link:focus {
+      transition: border 0.2s;
+      border-bottom: 1px solid #ffffff;
+      margin-bottom: -px;
+    }
+  }
+  .header-banner {
+    min-height: 100vh;
+    .btn {
+      font-size: 1.5rem;
+      border-radius: 2rem;
+    }
+  }
+  .header-content {
+    z-index: 2;
+  }
+}
+main {
+  section {
+    padding-top: 75px;
+  }
+  .card {
+    background-color: #464647;
+    color: inherit;
+  }
+}
+
+.foot {
+  width: 100%;
+  height: 40px;
+  background-color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-family: "IbmPlexSans", sans-serif;
+
+  font-weight: 400;
+  color: red;
+}
+.contact-section {
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+footer {
+  background-color: #0d6efd;
+}

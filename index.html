@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jan Fiser</title>
+
+    <link rel="stylesheet" href="./scss/custom.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="overlay" id="home"></div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="brand">TopCarz</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#main1">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Our products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prize">Our prices</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section
+        id="home"
+        class="header-banner d-flex justify-content-center align-items-center"
+      >
+        <div class="header-content container text-white text-center">
+          <h1 class="text-uppercase display-1">TopCarz</h1>
+          <h3 class="text-uppercase display-5 m-0">Drive your dream</h3>
+
+          <button
+            type="button"
+            class="btn btn-lg btn-primary text-uppercase px-5"
+            data-bs-toggle="modal"
+            data-bs-target="#modal"
+          >
+            cookies
+          </button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="main1" >
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-12 col-lg-8 mb-3 mt-20">
+              <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="auto2.jpg" class="d-block w-100" alt="¨spain1" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="auto3.jpg" class="d-block w-100" alt="spain2" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="auto4.jpg" class="d-block w-100" alt="spain3" />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h3 class="text-uppercase">About us</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                molestias! Suscipit eos, pariatur dolorem quia, a dolore totam
+                esse, reiciendis eaque <span>exercitationem in accusamus labore rem?</span>
+                Ducimus consectetur dolores, inventore iure cupiditate ex
+                dolorem quas nisi, sint non voluptatem similique saepe sequi?
+                Harum, voluptas veniam.
+              </p>
+              <a href="#" class="see-link text-primary"
+                >Click here for more...<i class="ml-1 fa fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="3pictures" id="product">
+        <div class="container mt-3 p3">
+          <h2 class="text-center text-uppercase mb-4">Our products</h2>
+          <div class="row">
+            <div class="col-12 col-md-4 text-center">
+              <img
+                src="auto5.jpg"
+                alt="Amenities You Want"
+                class="d-none d-md-block img-fluid"
+              />
+              <h3 class="text-center">Lorem Ipsum</h3>
+              <p class="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptate similique sunt laborum repudiandae sed placeat
+                reiciendis delectus mollitia, quas adipisci, vel nemo sit porro
+                deleniti.
+              </p>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+              <img
+                src="auto6.jpg"
+                alt="Amenities You Want"
+                class="d-none d-md-block img-fluid"
+              />
+              <h3 class="text-center">Lorem Ipsum</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+                aspernatur obcaecati recusandae eum vitae quae, magnam, id
+                necessitatibus molestiae quas repudiandae modi! Fugit, eveniet.
+                Perspiciatis.
+              </p>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+              <img
+                src="auto7.jpg"
+                alt="Amenities You Want"
+                class="d-none d-md-block img-fluid"
+              />
+              <h3 class="text-center">Lorem Ipsum</h3>
+              <p class="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis recusandae ea facilis, cumque aliquam iusto facere
+                aliquid veritatis? Incidunt vero quasi commodi, doloribus
+                suscipit veniam!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prize" id="prize">
+        <div class="container mt-4">
+            <h1 class="mb-4">Car offer</h1>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Model</th>
+                  <th>Price</th>
+                  <th>Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mazda 2 Hybrid</td>
+                  <td>£29 259</td>
+                  <td>2022</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Nissan Leaf</td>
+                  <td>£25 327</td>
+                  <td>2021</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Renault MEGANE E-TECH</td>
+                  <td>£27 481</td>
+                  <td>2020</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-md-6 half-page contact-col">
+                <div class="contact-section">
+                  <h2 class="text-center mb-4">Contact Us</h2>
+                  <div class="row">
+                    <div class="col-12 contact-item">
+                      <h4><i class="bi bi-telephone"></i> Phone</h4>
+                      <p><a href="tel:+123456789">+1 234 567 89</a></p>
+                    </div>
+                    <div class="col-12 contact-item">
+                      <h4><i class="bi bi-envelope"></i> Email</h4>
+                      <p><a href="mailto:info@example.com">info@example.com</a></p>
+                    </div>
+                    <div class="col-12 contact-item">
+                      <h4><i class="bi bi-geo-alt"></i> Address</h4> 
+                      <address>
+                        1234 Elm Street<br>
+                        Some City, State 12345<br>
+                        Country
+                      </address>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 half-page">
+             <div class="col-12 col-lg-4 pb-3">
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164749.76015897564!2d18.07224484084529!3d49.81962412300792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711586a3124e79d%3A0x891973fb9f9e9144!2sOstrava!5e0!3m2!1scs!2scz!4v1722182188911!5m2!1scs!2scz"
+              width="400"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+              </div>
+              <div class="col-lg-4"></div>
+              <div class="col-lg-2"></div>
+              <div class="col-lg-4" style="align-items: right; justify-content: center; text-align: center;">
+                    <form>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="name" />
+                        </div>
+                        <div class="mb-3">
+                          <label for="message" class="form-label">Your message</label>
+                          <textarea
+                            class="form-control"
+                            id="message"
+                            rows="4"
+                          ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit </button>
+                      </form>
+                        <br>
+                </div>
+              </div>
+            </div>
+            
+          
+      </section>
+      <footer >
+        
+        <nav class="navbar navbar-expand-lg " >
+
+            <div class="foot">
+
+  
+             
+  
+              <div class="collapse navbar-collapse" id="navbarNav">
+  
+                <ul class="navbar-nav">
+  
+                    <li class="nav-item">
+  
+                        <a class="nav-link" href="#home">Home</a>
+      
+                      </li>
+  
+                  <li class="nav-item">
+  
+                    <a class="nav-link" href="#main1">About us</a>
+  
+                  </li>
+  
+                  <li class="nav-item">
+  
+                    <a class="nav-link" href="#product">Our products</a>
+  
+                  </li>
+  
+                  <li class="nav-item">
+  
+                    <a class="nav-link" href="#prize">Our prices</a>
+  
+                  </li>
+  
+                  <li class="nav-item">
+  
+                    <a class="nav-link" href="#contact">Contact us</a>
+  
+                  </li>
+  
+                 <!--  <li class="nav-item">
+  
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  
+                  </li> -->
+  
+                </ul>
+  
+              </div>
+  
+            </div>
+  
+          </nav>
+  
+        <div class="foot">
+            
+          <div>&copy;Jan Fiser 2024 </div>
+          
+        </div>
+      </footer>
+    </main>
+    <div
+
+    class="modal fade"
+
+    id="modal"
+
+    data-bs-backdrop="static"
+
+    data-bs-keyboard="false"
+
+    tabindex="-1"
+
+    aria-labelledby="staticBackdropLabel"
+
+    aria-hidden="true"
+
+  >
+
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content bg-dark">
+
+        <div class="modal-header" >
+            
+
+          <h1 class="modal-title fs-5 text-primary" id="staticBackdropLabel">
+
+            Accept Cookies<br>
+            <br><p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius est ad in amet quisquam nulla consectetur illum iste, mollitia harum!</p>
+          </h1>
+          
+
+        </div>
+
+        <div class="modal-body">                  
+
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+
+                <i class="bi bi-caret-right-fill"></i> Accept
+
+            </button>
+
+            <button type="button" class="btn btn-primary"  href="#" data-bs-dismiss="modal">
+
+                <i class="bi bi-caret-right-fill"></i> Decline 
+
+            </button>     
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const navLinks = document.querySelectorAll(".nav-link");
+        const navbarMenu = document.querySelector("#navbarNav");
+        const bsCollapse = new bootstrap.Collapse(navbarMenu, {
+          toggle: false,
+        });
+
+        const collapseNavbar = () => {
+          if (window.innerWidth < 992) {
+            bsCollapse.hide();
+          }
+        };
+
+        navLinks.forEach((link) =>
+          link.addEventListener("click", collapseNavbar)
+        );
+      });
+      
+    </script>
+  </body>
+</html>
